@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.router-link-active{
+  background-color: #6366F1;
+  text-decoration: underline;
+  padding: 2px;
+}

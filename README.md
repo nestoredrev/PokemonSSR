@@ -1,4 +1,6 @@
-# PokemonSsr
+# Pokemon SSR
+
+Esto es una aplicacion DEMO para ir aprendizando la tecnologia SERVER SIDE RENDERING (SSR) para la indexion correcta de los navegadores.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
 
