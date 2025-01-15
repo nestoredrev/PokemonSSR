@@ -3,6 +3,14 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     {
+        path: 'pokemons',
+        loadComponent: () => import('./pages/pokemons/pokemons-page.component')
+    },
+    {
+        path: 'pokemon/:id',
+        loadComponent: () => import('./pages/pokemon/pokemon-page.component')
+    },
+    {
         path: 'about',
         loadComponent: () => import('./pages/about/about-page.component')
     },
@@ -18,7 +26,7 @@ export const routes: Routes = [
         path: '**',
         redirectTo: () => {
             //const authService = inject(AuthService)
-            return 'about';
+            return 'pokemons';
         }
     }
 ];

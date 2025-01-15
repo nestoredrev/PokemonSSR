@@ -31,7 +31,7 @@ export  default class PricingPageComponent implements OnInit {
   
       this.meta.updateTag({
         name: 'keywords',
-        content: 'Angular, Angular, PRO, Pracing Page, Nestor, Curso'
+        content: 'Angular, Angular PRO, Pracing Page, Nestor, Curso'
       });
   
     }

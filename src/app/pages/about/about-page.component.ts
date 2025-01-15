@@ -27,7 +27,7 @@ export  default class AboutPageComponent implements OnInit {
      * Utilizando SSR todo se ejecuta en el lado del servidor.
      */
 
-    if (!isPlatformBrowser(this.platform)) {
+    if (isPlatformBrowser(this.platform)) {
       document.title = 'About';
     }
     
